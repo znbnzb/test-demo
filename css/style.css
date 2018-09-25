@@ -4,11 +4,23 @@
     text-decoration: none;
 }
 
-#container {
+li {
+    list-style: none;
+}
+
+
+
+#wrap {
+    width: 100%;
+    height: 730px;
+    background: #f4f4f4;
+}
+
+/* banner轮播 */
+#banner {
     position: relative;
-    width: 600px;
-    height: 400px;
-    /* border: 1px solid #333; */
+    width: 100%;
+    height: 180px;
     overflow: hidden;
 }
 
@@ -16,18 +28,19 @@
     position: absolute;
     z-index: 1;
     width: 6600px;
-    height: 400px;
+    height: 180px;
+
 }
 
 #list img {
     float: left;
     width: 600px;
-    height: 400px;
+    height: 180px;
 }
 
 #buttons {
     position: absolute;
-    left: 27%;
+    left: 40%;
     bottom: 4px;
     z-index: 2;
     height: 10px;
@@ -41,12 +54,187 @@
     height: 7px;
     border: 1px solid #fff;
     border-radius: 50%;
-    background: #333;
+    background: #b7b7b7;
     cursor: pointer;
 }
 
 #buttons .on {
-    background: orangered;
+    background: rgb(5, 5, 5);
 }
 
-.
+/* 四宫格 */
+
+.box-wrap {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 30px;
+}
+
+.box-wrap ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-wrap li {
+    list-style: none;
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    width: 24.7%;
+    height: 100px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+
+.box-wrap li:last-child {
+    border-right: none;
+}
+
+.box-wrap li i {
+    margin-top: 25px;
+    display: block;
+    font-size: 28px;
+    color: #636564;
+
+
+}
+
+.box-wrap li span {
+    color: #636564;
+    font-size: 16px;
+}
+
+/* 列表 */
+#lists {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 204px;
+    /* padding-left: 15px; */
+    background-color: #ffffff;
+}
+
+#lists .list {
+    border-bottom: 1px solid #dfdfdf;
+    /* width: 100%; */
+    height: 40px;
+    padding-top: 10px;
+    /* padding-left: 15px; */
+    margin-left: 15px;
+    line-height: 40px;
+    color: #000000;
+    position: relative;
+
+}
+
+
+
+#lists .list i {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #dfdfdf;
+    /* font-size: 26px; */
+    /* line-height: 40px; */
+}
+
+#lists .list span {
+    font-size: 16px;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+}
+
+#lists .list b {
+    position: absolute;
+    top: 5px;
+    font-size: 18px;
+    right: 15px;
+}
+
+/* 底部 */
+#foot {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+}
+
+#foot .foots {}
+
+#foot .foots_1 {
+    float: left;
+    width: 28%;
+    height: 35px;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+#foot .foots_1 i {
+    display: inline-block;
+    /* display: block; */
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #dfdfdf;
+}
+
+#foot .foots_1 span {
+    display: block;
+    font-size: 12px;
+    color: #8b8784;
+}
+
+/* 我的酒水 */
+#tab {
+    width: 99.5%;
+    /* height: 300px; */
+    overflow: hidden;
+    background-color: #f4f4f4;
+    border: 1px solid red;
+}
+
+.tab-nav {
+    width: 100%;
+    position: relative;
+    height: 27px;
+    margin-bottom: 50px;
+}
+
+.tab-nav ul {
+    position: absolute;
+    width: 100%;
+    left: -1px;
+    background-color: #ffffff;
+    /* border-bottom: 1px solid #efefef; */
+
+}
+
+.tab-nav li {
+    float: left;
+    width: 33.1%;
+    padding: 10px 0;
+    text-align: center;
+    border-right: 1px solid #efefef;
+}
+
+.tab-nav li:last-child {
+    border-right: none;
+}
+
+.tab-nav li a {
+    color: #000000;
+}
+
+.active {
+    background-color: #eaeaea;
+    border-right: none;
+}
