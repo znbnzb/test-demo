@@ -99,6 +99,10 @@
     border: 1px solid #e7e7e7;
 }
 
+#tab-contain .tab-member2 {
+    margin-top: 50px;
+}
+
 #tab-contain .tab-member-title {
     width: 100%;
     display: flex;

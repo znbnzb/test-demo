@@ -73,3 +73,24 @@
     right: 15px;
     /* border-radius: 2px; */
 }
+
+/* 按钮 */
+.aui-code-btn {
+    position: absolute;
+    bottom: 28%;
+    width: 100%;
+    left: 0;
+    padding: 0 15px;
+}
+
+.aui-code-btn button {
+    background-color: #e94f4f;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 0.98rem;
+}
