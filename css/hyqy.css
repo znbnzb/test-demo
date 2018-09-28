@@ -1,0 +1,35 @@
+.hy-contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.hy-privilege {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.hy-grade {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.hy-privilege-list {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 26px;
+}
+
+.hy-privilege-list img {
+    widht: 45px;
+    height: 45px;
+    display: block;
+    border-radius: 100px;
+    background-color: blue;
+}
