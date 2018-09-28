@@ -1,0 +1,13 @@
+.aui-base-flex {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.aui-base-list {
+    widht: 100%;
+    padding: 15px;
+    margin-left: 15px;
+    border-bottom: 1px solid red;
+}

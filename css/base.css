@@ -209,7 +209,7 @@
     display: flex;
     -webkit-box-align: center;
     margin-left: 15px;
-    padding: 6px 7px 6px 0;
+    padding: 15px 0px;
     position: relative;
     border-bottom: 1px solid #efefef;
 }
@@ -224,21 +224,17 @@
 .aui-list-box {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
-    flex: 1;
+    flex: 2;
     min-width: 0;
     font-size: 14px;
     color: #333;
 }
 
-.aui-list-box span {
-    color: #333333;
-    font-size: 1rem;
-    line-height: 35px;
-}
+
 
 /* 向右的箭头 */
 .aui-list-arrow {
-    position: relative;
+    /* position: relative; */
 }
 
 .aui-list-arrow:after {
