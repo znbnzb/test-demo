@@ -3,33 +3,98 @@
     flex-direction: column;
 }
 
+.hy-grade-text {
+    padding: 30px 14px 0px 14px;
+    font-size: 0.9rem;
+    color: #353535;
+}
+
+/* 会员等级 */
+.hy-grade {
+    background: #ffffff;
+    width: 100%;
+}
+
+.hy-grade-v {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    flex-direction: row;
+    /* margin-bottom: 9px; */
+}
+
+.hy-grade-v-text {
+    width: 100%;
+    text-align: center;
+    margin: 5px 14px;
+    color: #999999;
+    padding: 15px 2px;
+}
+
+
+.hy-grade-v-text .hy-grade-btn {
+    font-size: 0.7rem;
+    color: #009999;
+
+    background: #f4f4f4;
+    border: 1px solid #009999;
+    border-radius: 21px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.hy-grade-v-text .hy-grade-number {
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 会员特权 */
 .hy-privilege {
+    position: relative;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
-    padding: 12px;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid red;
+    padding: 0px 7px;
 }
 
-.hy-grade {
-    width: 100%;
-    border: 1px solid red;
-}
-
-.hy-privilege-list {
-    border: 1px solid black;
-    /* margin: 5px;
-    padding: 26px; */
-}
-
-.hy-privilege-list img {
-    widht: 45px;
-    height: 45px;
+.hy-privilege a {
     display: block;
-    border-radius: 100px;
-    background-color: blue;
+    width: 33.3%;
+}
+
+.hy-privilege .hy-privilege-list {
+    text-align: center;
+    margin: 7px;
+    background-color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid #e5e5e5;
+}
+
+.hy-privilege .hy-privilege-list .img-1 {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    padding-bottom: 13px;
+}
+
+.hy-privilege .hy-privilege-list .img-1 img {
+    width: 100%;
+    border: none;
+}
+
+.hy-privilege .hy-privilege-list span {
+    font-size: 0.8rem;
+    color: #353535;
 }
