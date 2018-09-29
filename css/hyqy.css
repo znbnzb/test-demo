@@ -22,8 +22,8 @@
 
 .hy-privilege-list {
     border: 1px solid black;
-    margin: 5px;
-    padding: 26px;
+    /* margin: 5px;
+    padding: 26px; */
 }
 
 .hy-privilege-list img {
