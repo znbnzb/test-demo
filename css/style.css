@@ -54,12 +54,15 @@
 
 /* 我的寄存 */
 #tab-contain {
+    margin-top: 20px;
     padding: 10px;
+    position: relative;
     /* border: 1px solid blueviolet; */
 }
 
 .mod {
     display: flex;
+    position: relative;
     flex-direction: column;
 }
 
@@ -199,9 +202,10 @@
 /* 按钮 */
 .aui-code-btn {
     position: absolute;
-    bottom: 15%;
-    width: 100%;
     left: 0;
+    bottom: 17%;
+    width: 100%;
+
     padding: 0 15px;
 }
 
@@ -215,4 +219,39 @@
     border-radius: 4px;
     width: 100%;
     font-size: 0.98rem;
+}
+
+/* 酒卡详情 */
+
+
+#tab-contain .tab-right {
+    position: absolute;
+    right: 0;
+    top: -4px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    color: #09bb07;
+    border: 1px solid #09bb07;
+    padding: 2px;
+}
+
+.tab-text div {
+    color: black;
+}
+
+.tab-text span {
+    color: #999999;
+}
+
+.tab-text .text-date {
+    position: absolute;
+    right: 15px;
+    top: 45px;
+
+
+}
+
+.tab-text .text-date p {
+    color: #999999;
+    font-size: 0.9rem;
 }
