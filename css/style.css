@@ -11,13 +11,14 @@
     width: 100%;
     position: relative;
     height: 27px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .tab-nav ul {
     position: absolute;
     width: 100%;
     left: -1px;
+    margin-bottom: 30px;
     background-color: #ffffff;
     /* border-bottom: 1px solid #efefef; */
 
@@ -53,7 +54,7 @@
 
 /* 我的寄存 */
 #tab-contain {
-    padding: 18px;
+    padding: 10px;
     /* border: 1px solid blueviolet; */
 }
 
@@ -135,4 +136,57 @@
 
 .tab-member-contain div:first-child {
     padding-bottom: 25px;
+}
+
+
+/* 我的酒卡样式 */
+
+.tab-text2 {
+    position: relative;
+    width: 100%;
+    /* height: 120px; */
+    padding: 23px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+
+.tab-text2 .tab-text-right2 {
+    text-align: center;
+    color: #999999;
+}
+
+.tab-text-left p {
+    margin-bottom: 25px;
+}
+
+.tab-text2 .tab-text-right2 p {
+    font-size: 0.9rem;
+    margin-right: -8px;
+    margin-bottom: 25px;
+    text-align: right;
+    color: #999999;
+}
+
+.tab-text2 .tab-text-right2 span {
+    display: block;
+    padding-bottom: 4px;
+}
+
+.aui-list-arrow:after {
+    content: "";
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-width: 2px 2px 0 0;
+    border-color: #c3cec6;
+    border-style: solid;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    /* margin-top: -4px; */
+    right: 12px;
+    position: absolute;
+    top: 59%;
 }

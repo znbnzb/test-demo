@@ -46,7 +46,8 @@
 
 .box ul li .bg2 {
     background-color: #009999;
-    border: none;
+    /* border: none; */
+    border: 1px solid #009999;
     color: #ffffff;
 }
 

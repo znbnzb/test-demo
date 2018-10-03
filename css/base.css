@@ -224,6 +224,7 @@
 .aui-list-box {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
+    line-height: 35px;
     flex: 2;
     min-width: 0;
     font-size: 14px;
@@ -233,9 +234,7 @@
 
 
 /* 向右的箭头 */
-.aui-list-arrow {
-    /* position: relative; */
-}
+
 
 .aui-list-arrow:after {
     content: "";
