@@ -1,0 +1,48 @@
+/* 外边框，控制内边距 */
+#reservation-box {
+    padding: 15px;
+}
+
+#reservation-box p {
+    font-size: 0.9rem;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+#reservation-box ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#reservation-box ul li {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    padding: 23px;
+}
+
+#reservation-box ul li h4 {
+    font-size: 1.4rem;
+}
+
+#reservation-box ul li span {
+    font-size: 0.9rem;
+    color: #999999;
+}
+
+/* 确定预约提示 */
+.reservation-time {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.reservation-text {
+    padding: 15px 18px;
+    text-align: right;
+}
+
+.reservation-text span.reservation-text-rg {}
