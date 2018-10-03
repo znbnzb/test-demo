@@ -159,6 +159,10 @@
     color: #999999;
 }
 
+.tab-text-left {
+    color: black;
+}
+
 .tab-text-left p {
     margin-bottom: 25px;
 }
@@ -173,6 +177,7 @@
 
 .tab-text2 .tab-text-right2 span {
     display: block;
+
     padding-bottom: 4px;
 }
 
@@ -189,4 +194,25 @@
     right: 12px;
     position: absolute;
     top: 59%;
+}
+
+/* 按钮 */
+.aui-code-btn {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    left: 0;
+    padding: 0 15px;
+}
+
+.aui-code-btn button {
+    background-color: #09bb07;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 0.98rem;
 }
