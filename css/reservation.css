@@ -3,6 +3,10 @@
     padding: 15px;
 }
 
+#reservation-box ul li.border-gree {
+    border: 1px solid #09bb07;
+}
+
 #reservation-box p {
     font-size: 0.9rem;
     color: #999999;
@@ -41,8 +45,46 @@
 }
 
 .reservation-text {
-    padding: 15px 18px;
-    text-align: right;
+    padding: 12px 18px;
+    font-size: 1rem;
+    color: #000000;
+    border-bottom: 1px solid #ededed;
 }
 
-.reservation-text span.reservation-text-rg {}
+.reservation-text span.reservation-text-rg {
+    position: relative;
+    float: right;
+    color: #999999;
+}
+
+.aui-list-arrow:after {
+    content: "";
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-width: 2px 2px 0 0;
+    border-color: #c3cec6;
+    border-style: solid;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: absolute;
+    top: 7px;
+}
+
+/* 按钮 */
+.aui-code-btn {
+    width: 100%;
+
+    padding: 20px 15px;
+}
+
+.aui-code-btn button {
+    background-color: #09bb07;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1.2rem;
+}
