@@ -205,7 +205,6 @@
     left: 0;
     bottom: 17%;
     width: 100%;
-
     padding: 0 15px;
 }
 
@@ -254,4 +253,56 @@
 .tab-text .text-date p {
     color: #999999;
     font-size: 0.9rem;
+}
+
+/* 预约成功 */
+.y-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 40px 15px 15px 15px;
+}
+
+.y-content .y-img {
+    margin-bottom: 30px;
+}
+
+.y-content .y-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.y-content .y-text span:first-child {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.y-content .y-text span {
+    color: #666666;
+    font-size: 0.9rem;
+
+}
+
+/* 预约回到首页按钮 */
+.aui-code-btn2 {
+    position: absolute;
+    left: 0;
+    top: 46%;
+    /* bottom: 17%; */
+    width: 100%;
+    padding: 0 15px;
+}
+
+.aui-code-btn2 button {
+    background-color: #09bb07;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1.2rem;
 }
